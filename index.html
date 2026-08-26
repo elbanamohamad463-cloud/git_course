@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ice cream elbana</title>
+    <link rel="stylesheet" hreh="./style.css">\
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+    integrity="sha512-QeR2VH+lsBE5LSAe1Q5EnTBbe7XTBubt8dG93Y7gidSgdMCr8nVqKcfKAMyN96SV8KDbZVTDXChatu5G2KQGzg==
+    " crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Ropoto",sans-serif ;
+}
+
+.logo{
+    border-radius: 35px;
+    width: 100px;
+    height: 120px;
+}
+ul{
+    list-style: none;
+    
+
+}
+nav{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 0;
+}
+#home{
+    background: beige;
+    /* background: rgb(13, 196, 206); */
+    height: 150vh;
+
+}
+nav.logo{
+    
+    width: 60px;
+    
+}
+
+a{
+
+text-decoration: none;
+} 
+
+.contanier{
+    margin: 0 7rem;
+    height: 100%;
+
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav ul a{
+    color:black;
+    padding: 20px;
+}
+span{
+    font-size: 80px;
+}
+
+.btn{
+    font-size: 14px;
+    border-radius: 30px;
+    padding: 10px 15px;
+    background:black ;
+    color: aliceblue;
+    transition: all 0.3s;
+
+}
+.btn:hover{
+    border: 2px solid;
+    background-color: transparent;
+    color:darkred
+    
+}
+#home .content{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70%;
+}
+#home .content .img1{
+
+animation: animation 2s ease-out;
+    border-radius: 60px;
+
+}
+#home .content .content_text h1{
+    font-size: 40px;
+    font-weight: 900px;
+    margin-bottom: 10px;
+
+}
+#home .content .content_text p{
+    font-weight: 300px;
+    margin-bottom: 30px;
+
+
+}
+/* 
+#home .content .content_text {
+    margin-right: 300px;
+} */
+
+
+.social{
+    display: flex;
+    flex-direction: column;
+    font-size: 30px;
+    
+}
+.a{
+    flex-direction: column;
+}
+
+.ice_cream1{
+    display: block;
+    width: 130px;
+    border-radius: 50px;
+    margin: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+
+    
+}
+
+.ice_cream2{
+    display: block;
+    width: 100px;
+    height: 125px;
+    border-radius: 60px;
+    margin: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.ice_cream3{
+    display: block;
+    width: 100px;
+    border-radius: 60px;
+    margin: 10px;
+    
+    
+}
+.src{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+}
+@keyframes animation {
+    0%{
+        transform: translate(500px);
+    }
+    100%{
+        transform: translate(0);
+    }
+}
+
+
+
+@media (max-width:900px) {
+
+    .contanier{
+        margin:0 1rem;
+    }
+    nav ul a{
+        padding: 10px;
+    }
+    #home .content{
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem 0 0;
+
+    }
+
+        
+    #home .content .content_text .spun{
+        text-align: center;
+        
+
+    }
+
+
+    #home .content .content_text .p{
+        width: 100%;
+    }
+    #home .content .content_text{
+        margin-bottom: 2rem;
+    }
+    #home .content .img1{
+    width: 150px;
+    margin-bottom: 20px;
+
+    }
+    .social{
+        display: flex;
+        flex-direction: row;
+        margin-bottom: 10px;
+        
+    }
+}
+@media (max-width:600px) {
+nav{
+    display: block;
+    
+}
+nav .logo{
+    display: block;
+    margin: 0 auto 15px;
+}
+
+nav ul{
+    justify-content: center;
+}
+nav ul a{
+    font-size: 12px;
+}
+
+}
+
+    </style>
+
+
+</head>
+<body>
+
+    <div id="home">
+    <div class="contanier">
+        <nav>
+            <img src="./OIP (6).jpg" class="logo" alt="logo">
+            <ul>
+                <li><a href="#">home</a></li>
+                <li><a href="#"> what`s new</a></li>
+                <li><a href="#">products</a></li>
+                <li><a href="#">contact</a></li>
+                <li><a href="#">news letter</a></li>
+            </ul>
+        </nav>
+
+        <div>
+            <div class="content">
+                <div class="content_text"><h1>That`s What <span class="span"><br> I Like</h1></span>
+
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Nobis nemo sequi soluta <br> voluptatum atque ab nam, pariatur assumenda qui tempora eligendi repellendus,<br>
+                        sapiente porro at ex possimus dolorum fuga! Earum.</p>
+                        <a href="#" class="btn" >VIEW ALL PRODUCTS</a>
+                </div>
+                <img src="./OIP (3).jpg" class="img1" alt="logo">
+                <div class="social">
+                    <a href="#" ><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" ><i class="fa-brands fa-instagram"></i></i></a>
+                    <a href="#" ><i class="fa-brands fa-twitter"></i></a>
+                </div>
+            </div>
+
+                <div class="src">
+                    
+            <img src="./OIP (10).jpg" class="ice_cream1" alt="photo" >
+            <img src="./OIP (6).jpg" class="ice_cream2" alt="photo" >
+            <img src="./OIP (3).jpg" class="ice_cream3" alt="photo" >
+                </div>
+                
+
+            
+        
+        </div>
+    </div>
+    </div>
+
+
+    
+</body>
+</html>
